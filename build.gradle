@@ -1,0 +1,10 @@
+group 'com.tiens.beast'
+version '99-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
