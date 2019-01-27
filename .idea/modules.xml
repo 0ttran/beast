@@ -3,10 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/beast.iml" filepath="$PROJECT_DIR$/.idea/modules/beast.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/beast-controller.iml" filepath="$PROJECT_DIR$/.idea/modules/beast-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/beast-controller/beast-controller.iml" filepath="$PROJECT_DIR$/.idea/modules/beast-controller/beast-controller.iml" group="beast-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/beast-controller/beast-controller_main.iml" filepath="$PROJECT_DIR$/.idea/modules/beast-controller/beast-controller_main.iml" group="beast-controller" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/beast-controller/beast-controller_test.iml" filepath="$PROJECT_DIR$/.idea/modules/beast-controller/beast-controller_test.iml" group="beast-controller" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/beast_main.iml" filepath="$PROJECT_DIR$/.idea/modules/beast_main.iml" group="beast" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/beast_test.iml" filepath="$PROJECT_DIR$/.idea/modules/beast_test.iml" group="beast" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller/controller.iml" filepath="$PROJECT_DIR$/.idea/modules/controller/controller.iml" group="controller" />
     </modules>
   </component>
 </project>

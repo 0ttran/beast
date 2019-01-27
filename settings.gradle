@@ -1,3 +1,3 @@
 rootProject.name = 'beast'
-include 'controller'
+include 'beast-controller'
 
