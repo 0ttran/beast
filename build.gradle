@@ -3,13 +3,13 @@ version '99-SNAPSHOT'
 
 buildscript {
     ext{
-        springBootVersion = '2.0.5.RELEASE'
+        springBootVersion = '2.1.2.RELEASE'
     }
     repositories {
         mavenCentral()
     }
     dependencies{
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.5.RELEASE")
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
     }
 }
 
@@ -21,17 +21,20 @@ allprojects{
     apply plugin: 'io.spring.dependency-management'
 
     sourceCompatibility = 1.8
-    targetCompatibility = 1.8
 
     repositories{
         mavenCentral()
     }
+}
+bootJar{
+    mainClassName='com.tiens.beastcontroller'
+}
 
-    dependencies {
-        testCompile('org.springframework.boot:spring-boot-starter-test')
-    }
+jar {
+    baseName = 'beast-app'
+    version =  '99'
 }
 
 dependencies{
-    compile(':beast-controller')
+    compile project(':beast-controller')
 }
